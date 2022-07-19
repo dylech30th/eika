@@ -319,5 +319,5 @@ end Scanner
 @main
 def main(): Unit =
   for scanner <- Using[Source, Scanner](Source.fromFile("C:\\Users\\26532\\OneDrive\\桌面\\eika-lexer-test.txt"))(source => Scanner(source.mkString)) do
-    Postprocessor(scanner.all(), WhitespaceTransformationPass() :: Nil).applyTransformation().foreach(println)
+    Postprocessor(scanner.all(), WhitespaceTransformationPass() :: GenerateIndentationTokenPass() :: Nil).applyTransformation().foreach(println)
 end main

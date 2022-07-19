@@ -7,6 +7,8 @@ import eika.util.also
 import scala.annotation.tailrec
 
 case class TextWindow(content: String, range: Range, rangeLineInfo: (LineInfo, LineInfo))
+object TextWindow:
+  val dummy: TextWindow = TextWindow("", 0 to 0, (LineInfo(0, 0), LineInfo(0, 0)))
 
 given Conversion[String, SourceText] with
   def apply(s: String): SourceText = SourceText(s)

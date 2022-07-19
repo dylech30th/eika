@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ea94b284-64fe-44c2-9872-68903c7a9eff" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/eika/lang/GenerateIndentationTokenPass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/eika/lang/GenerateIndentationTokenPass.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/eika/lang/Scanner.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/eika/lang/Scanner.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/eika/lang/SourceText.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/eika/lang/SourceText.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/eika/lang/Token.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/eika/lang/Token.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/eika/lang/WhitespaceTransformationPass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/eika/lang/WhitespaceTransformationPass.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +36,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/lib/src.zip!/java.base/java/lang/StringBuilder.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/scala/eika/lang/GenerateIndentationTokenPass.scala" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/scala/eika/lang/SourceText.scala" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar!/scala/Option.scala" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar!/scala/Predef.scala" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar!/scala/StringContext.scala" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar!/scala/annotation/StaticAnnotation.scala" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar!/scala/annotation/compileTimeOnly.scala" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar!/scala/collection/Factory.scala" root0="SKIP_INSPECTION" />
@@ -62,20 +70,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ink.sora.eika.lang.main" />
@@ -117,6 +125,10 @@
       <workItem from="1654352920484" duration="519000" />
       <workItem from="1657610510378" duration="3644000" />
       <workItem from="1658050961330" duration="71000" />
+      <workItem from="1658244442514" duration="496000" />
+      <workItem from="1658244995722" duration="172000" />
+      <workItem from="1658245339095" duration="177000" />
+      <workItem from="1658245532715" duration="4901000" />
     </task>
     <servers />
   </component>

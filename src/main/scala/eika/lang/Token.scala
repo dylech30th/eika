@@ -50,6 +50,8 @@ enum TokenKind(val content: String, val species: TokenSpecies = TokenSpecies.Syn
   case TriviaNewline(val leadingReset: Boolean) extends TokenKind(if (leadingReset) "\r\n" else "\n", TokenSpecies.SyntaxTrivia)
   case TriviaTab extends TokenKind("\t", TokenSpecies.SyntaxIntrinsic)
   case TriviaWhitespace extends TokenKind(" ", TokenSpecies.SyntaxTrivia)
+  case Indent extends TokenKind("\t", TokenSpecies.SyntaxTrivia)
+  case Dedent extends TokenKind("\t", TokenSpecies.SyntaxTrivia)
   case Comma extends TokenKind(",")
   case Colon extends TokenKind(":")
   case ColonColon extends TokenKind("::")

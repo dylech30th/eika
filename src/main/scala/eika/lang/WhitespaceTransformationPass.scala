@@ -44,9 +44,9 @@ class WhitespaceTransformationPass extends LexerPass:
         case TokenKind.TriviaWhitespace =>
           if counter == 3 then
             positions += (index - 3)
-          else counter += 1
+            counter = 0
+          else
+            counter += 1
         case _ => counter = 0
-    end for
     positions.toSet
-  end mark
 end WhitespaceTransformationPass
